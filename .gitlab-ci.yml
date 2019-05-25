@@ -1,0 +1,29 @@
+stages:
+  - build
+  - release
+
+cache:
+  paths:
+    - node_modules/
+
+linux_build:
+  stage: build
+  image: node:latest
+  script:
+    - yarn
+    - yarn global add @quasar/cli
+    - quasar build --mode electron --target linux
+  artifacts:
+    expire_in: 1 week
+    paths:
+      - dist/electron/Packaged/*.AppImage
+      - dist/electron/Packaged/*.snap
+
+create_release:
+    image: inetprocess/gitlab-release
+    stage: release
+    only: 
+      - tags
+    script:
+        - ls -la # Debug
+        - gitlab-release dist/electron/Packaged/*.AppImage dist/electron/Packaged/*.snap
