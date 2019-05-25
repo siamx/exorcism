@@ -11,21 +11,15 @@ Cross platform wallpaper manager build using [Quasar Framework](https://quasar.d
 5. [FAQ](#faq)
 
 ## Installation
-#### Binary
-- Linux
-    - TODO.AppImage
-    - TODO.snap
-- Windows
-    - TODO.exe
-- MacOS
-    - TODO
+#### Binaries
+Check out [releases page](https://github.com/siamx/exorcism/releases)
 
 #### Build it yourself
 ```bash
 git clone https://github.com/siamx/exorcism
 cd exorcism
 yarn
-yarn build # this will build specifically for your platform only
+yarn build # this will build only for your platform
 ```
 
 ## Features
@@ -44,7 +38,7 @@ yarn build # this will build specifically for your platform only
 
 ## FAQ
 #### 1. Something is missing? Need a feature? Found a bug?
-- Kindly open an issue for me :smile:
+- Kindly open an issue :smile:
 
 #### 2. Want to give a helping hand?
 Refer to [Quasar Docs](https://quasar.dev/start/pick-quasar-flavour), and dive
