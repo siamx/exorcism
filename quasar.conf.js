@@ -6,7 +6,8 @@ module.exports = function (ctx) {
     // --> boot files are part of "main.js"
     boot: [
       'i18n',
-      'axios'
+      'axios',
+      'mixin'
     ],
 
     css: [
@@ -34,11 +35,15 @@ module.exports = function (ctx) {
         'QToolbar',
         'QToolbarTitle',
         'QBtn',
+        'QBtnGroup',
         'QIcon',
         'QList',
         'QItem',
         'QItemSection',
-        'QItemLabel'
+        'QItemLabel',
+        'QImg',
+        'QSpinnerHourglass',
+        'QTooltip'
       ],
 
       directives: [
@@ -68,7 +73,10 @@ module.exports = function (ctx) {
           enforce: 'pre',
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
-          exclude: /node_modules/
+          exclude: /node_modules/,
+          options: {
+            fix: true
+          }
         })
       }
     },
@@ -133,7 +141,7 @@ module.exports = function (ctx) {
     },
 
     electron: {
-      // bundler: 'builder', // or 'packager'
+      bundler: 'builder', // or 'packager'
 
       extendWebpack (cfg) {
         // do something with Electron main process Webpack cfg
