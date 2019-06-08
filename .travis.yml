@@ -16,6 +16,7 @@ script:
 deploy:
   provider: releases
   api_key: $GITHUB_AUTH_TOKEN
+  file_glob: true
   file:
     - dist/electron/Packaged/*.AppImage
     - dist/electron/Packaged/*.snap
