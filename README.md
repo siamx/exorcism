@@ -2,6 +2,8 @@
 
 > Evict ghosts from your desktop, liberate you backgorund
 
+[![Build Status](https://travis-ci.com/siamx/exorcism.svg?branch=master)](https://travis-ci.com/siamx/exorcism)
+
 Cross platform wallpaper manager build using [Quasar Framework](https://quasar.dev/)
 
 1. [Installation](#installation)

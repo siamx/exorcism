@@ -1,0 +1,21 @@
+language: node_js
+
+cache:
+  directories:
+    - 'node_modules'
+
+script:
+  - yarn
+  - yarn lint
+  - yarn global add @quasar/cli
+  - quasar build --mode electron --target linux
+
+deploy:
+  provider: releases
+  api_key: $GITHUB_AUTH_TOKEN
+  file:
+    - dist/electron/Packaged/*.AppImage
+    - dist/electron/Packaged/*.snap
+  skip_cleanup: true
+  on:
+    tags: true
