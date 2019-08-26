@@ -23,7 +23,7 @@
   "devDependencies": {
     "@quasar/app": "^1.0.0-rc.6",
     "@vue/eslint-config-standard": "^4.0.0",
-    "babel-eslint": "^10.0.1",
+    "babel-eslint": "^10.0.3",
     "devtron": "1.4.0",
     "electron": "4.0.5",
     "electron-builder": "^20.43.0",
