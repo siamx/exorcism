@@ -2,7 +2,7 @@
 
 > Evict ghosts from your desktop, liberate you backgorund
 
-[![Build Status](https://travis-ci.com/siamx/exorcism.svg?branch=master)](https://travis-ci.com/siamx/exorcism)
+[![Build Status](https://travis-ci.com/seyamx/exorcism.svg?branch=master)](https://travis-ci.com/seyamx/exorcism)
 
 Cross platform wallpaper manager build using [Quasar Framework](https://quasar.dev/)
 
@@ -14,11 +14,11 @@ Cross platform wallpaper manager build using [Quasar Framework](https://quasar.d
 
 ## Installation
 #### Binaries
-Check out [releases page](https://github.com/siamx/exorcism/releases)
+Check out [releases page](https://github.com/seyamx/exorcism/releases)
 
 #### Build it yourself
 ```bash
-git clone https://github.com/siamx/exorcism
+git clone https://github.com/seyamx/exorcism
 cd exorcism
 yarn
 yarn build # this will build only for your platform
@@ -45,7 +45,7 @@ yarn build # this will build only for your platform
 #### 2. Want to give a helping hand?
 Refer to [Quasar Docs](https://quasar.dev/start/pick-quasar-flavour), and dive
 ```bash
-git clone https://github.com/siamx/exorcism
+git clone https://github.com/seyamx/exorcism
 cd exorcism
 yarn
 yarn dev
