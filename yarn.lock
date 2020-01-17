@@ -935,10 +935,10 @@
     babel-plugin-module-resolver "3.2.0"
     babel-plugin-transform-imports "1.5.1"
 
-"@quasar/extras@^1.0.0":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.1.2.tgz#8b3a5faa52a824ffe53d233b9dffa2de15377f37"
-  integrity sha512-gas3jD/ArAtRNwUgvosUNl8ueWZJD4ULd7n6nWrWIH3I+I3A1u3CJbwVlsR1czlY7eawMFXmhJ3KKnx3IbkASg==
+"@quasar/extras@^1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.4.2.tgz#177f3cdbd7b604c8bf903946dbee7ebd3a0ecad4"
+  integrity sha512-lq2h18+IUs8M6weWRVoqzsPluENsBRdb4t2ePbsX0mjYz50Xpk1/K9isUotl7bDQDkJSwbshQKLOD7P1co0fTg==
 
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
