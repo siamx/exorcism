@@ -18,7 +18,7 @@
     "image-downloader": "^3.4.2",
     "quasar": "^1.0.0-rc.4",
     "vue-i18n": "^7.3.3",
-    "wallpaper": "^4.4.0"
+    "wallpaper": "^4.4.2"
   },
   "devDependencies": {
     "@quasar/app": "^1.0.0-rc.6",
