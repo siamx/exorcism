@@ -13,7 +13,7 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "@quasar/extras": "^1.0.0",
+    "@quasar/extras": "^1.10.8",
     "axios": "^0.18.1",
     "image-downloader": "^3.4.2",
     "quasar": "^1.0.0-rc.4",
